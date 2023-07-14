@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans";
+}
+body {
+  background-color: rgb(24 62 119);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #fff;
+}
+div {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: rgb(24 62 119);
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
